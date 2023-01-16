@@ -1,0 +1,6 @@
+#main-container{
+  place-items: center center;
+}
+#sign-in-form{
+  max-width: 350px;
+}
