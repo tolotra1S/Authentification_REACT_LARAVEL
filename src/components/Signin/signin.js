@@ -1,11 +1,12 @@
+import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import "./App.css";
-function App() {
+
+function signin() {
   return (
-    <div className="App">
-      {/* <Container id="main-container" className='d-grid h-100'>
+    <div>
+        <Container id="main-container" className='d-grid h-100'>
       <Form id="sign-in-form" className='text-center w-100'>
         <h1 className="fs-3 fw-normal">please sign in</h1>
       
@@ -22,9 +23,9 @@ function App() {
         <Button>Sign in</Button>
         </div>
         </Form>
-      </Container> */}
+      </Container>
     </div>
-  );
+  )
 }
 
-export default App;
+export default signin
